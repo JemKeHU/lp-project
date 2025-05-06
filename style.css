@@ -6,7 +6,7 @@
 }
 
 .header {
-  padding: 10px 230px;
+  padding: 20px 230px;
   background-color: #1f2937;
   padding-bottom: 80px;
 }
@@ -79,4 +79,111 @@ li {
   border: none;
   background-color: #3882f6;
   color: #f9faf8;
+}
+
+.body-one {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.random-h1 {
+  text-align: center;
+  margin: 40px 0;
+  color: #1f2937;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.body-one-boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.box {
+  border: 3px solid  #3882f6;
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  margin-bottom: 12px;
+}
+
+.box-p {
+  width: 150px;
+  text-align: center;
+  text-wrap: wrap;
+  color: #747474;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 120px 250px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+}
+
+.quote-author {
+  text-align: end;
+  font-size: 20px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.action-container {
+  margin: 100px 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3882f6;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.quote-h1,
+.quote-button,
+.quote-p {
+  color: #f9faf8;
+}
+
+.quote-h1 {
+ font-size: 24px;
+}
+
+.quote-button {
+  border: 2px solid #f9faf8;
+  background-color: #3882f6;
+  padding: 6px 32px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-p {
+  font-size: 16px;
+  color: #e5e5e5;
+  padding: 40px;
 }
